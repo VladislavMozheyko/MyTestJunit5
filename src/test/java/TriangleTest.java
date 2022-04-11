@@ -29,7 +29,7 @@ public class TriangleTest {
 
     @Test
     void testResultNotZero() {
-        assertEquals(true, triangle.setUp(2, 2, 2) != 0);
+        assertEquals(true, triangle.setUp(2, 3, 2) != 0);
     }
 
     @Test
