@@ -8,7 +8,8 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TriangleTest {
+public class TriangleTest{
+
 
     Triangle triangle;
 
@@ -19,7 +20,7 @@ public class TriangleTest {
 
     @Test
     void testResult() {
-        assertEquals(triangle.setUp(2, 5, 5), 4.898979485566356);
+    assertEquals(triangle.setUp(2, 5, 5), 4.898979485566356);
     }
 
     @Test
