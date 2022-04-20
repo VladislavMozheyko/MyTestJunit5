@@ -1,12 +1,10 @@
-import dev.failsafe.internal.util.Assert;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotSame;
 
 public class TriangleTest{
 
@@ -30,7 +28,7 @@ public class TriangleTest{
 
     @Test
     void testResultNotZero() {
-        assertEquals(true, triangle.setUp(2, 3, 2) != 0);
+        assertEquals(true, triangle.setUp(5, 7, 5) != 0);
     }
 
     @Test
